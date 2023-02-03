@@ -59,16 +59,16 @@
             <legend class="filter-column-name">Тип жилья:</legend>
             <ul class="filter-list">
               <li class="filter-type-home">
-                <input id="filter-hotel" type="radio" name="hotel" checked>
-                <label for="filter-hotel" class="filter-item-name active">Гостиница</label>
+                <input type="radio" name="hotel-selection" value="hotel" checked>
+                <label class="filter-item-name active">Гостиница</label>
               </li>
               <li class="filter-type-home">
-                <input id="filter-motel" type="radio" name="motel">
-                <label for="filter-motel" class="filter-item-name active">Мотель</label>
+                <input type="radio" name="hotel-selection" value="motel">
+                <label class="filter-item-name active">Мотель</label>
               </li>
               <li class="filter-type-home">
-                <input id="filter-apartment" type="radio" name="apartment">
-                <label for="filter-apartment" class="filter-item-name active">Апартаменты</label>
+                <input type="radio" name="hotel-selection" value="apartment">
+                <label class="filter-item-name active">Апартаменты</label>
               </li>
             </ul>
           </fieldset>
@@ -77,8 +77,8 @@
             <fieldset class="filter-column">
               <legend class="filter-column-name price-controls-name">Стоимость в сутки (р):</legend>
               <div class="price-controls">
-                <label class="min-price">от <input type="text" name="min-price" value="0"></label>
-                <label class="max-price">до <input type="text" name="max-price" value="9000"></label>
+                <label class="min-price">от <input type="number"" name="min-price" value="0"></label>
+                <label class="max-price">до <input type="number"" name="max-price" value="9000"></label>
               </div>
               <button class="price-secect option-price" type="submit">Применить</button>
               <button class="clear" type="reset">сбросить</button>
