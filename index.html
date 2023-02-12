@@ -4,13 +4,14 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
 
   <body>
     <!--Шапка блок навигации-->
     <header class="page-header">
-      <a href="index.html"><img class="logo" src="/image/logo.jpg" width="140" height="70"
-          alt="Welcome to the gorgeous Sedona, because the Grand Canyon sucks!"></a>
+      <a href="index.html"><img class="logo" src="image/logo.svg" width="140" height="70"
+        alt="логотип страницы."></a>
       <nav class="navigation">
         <ul class="navigation-list">
           <li class="navigation-item"><a class="navigation=link" href="index.html">Главная</a></li>
@@ -28,12 +29,16 @@
       </nav>
     </header>
     <!--Приветтственный блок-->
-    <div class="hero">
-      <h1 class="visually-hidden">Город Седона</h1>
-      <img class="logo1" src="/image/logo1.png" width="1200" height="485" alt="Пейзаж окрестностей">
-    </div>
     <!--Преимущества Седоны-->
     <main>
+      <div class="hero">
+        <h1 class="visually-hidden">Город Седона</h1>
+        <img src="image/welcome.svg" width="458" height="352" style="background-color: rgb(121, 221, 248);" alt="welcome to the gorgeus sedona because the grand canyon sucks.">
+        </object>
+
+        </object>
+
+      </div>
       <section class="promo">
         <h2 class="visually-hidden">Преимущества</h2>
         <h2 class="title-promo">Седона небольшой городок в Аризоне, заслуживающий большего!</h2>
@@ -42,24 +47,24 @@
           <li class="adventages-item">
             <h3 class="white-title">Настоящий городок</h3>
             <p class="white-text">Седона не аттракцион для туристов, там течет своя жизнь</p>
-            <img class="image-promo" src="/image/city.jpg" alt="Городское фото" width="800" height="384">
+            <img class="image-promo" src="image/city.jpg" alt="Городское фото." width="800" height="384">
           </li>
-          <li class="adventages-item">
+          <li class="adventages-item square-item">
             <h3 class=" black-title">Небольшая площадь</h3>
             <p class="black-text">Все достопримечательности находятся очень близко</p>
           </li>
           <li class="adventages-item">
-            <h3 class=" black-title">Красивая дорога</h3>
+            <h3 class=" black-title road-item">Красивая дорога</h3>
             <p class="black-text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
           </li>
           <li class="adventages-item">
-            <h3 class="second-title">Мало туристов</h3>
+            <h3 class="second-title touirist-item" >Мало туристов</h3>
             <p class="black-text">Большинство едет в Гранд Каньон и толпится там</p>
           </li>
           <li class="adventages-item">
             <h3 class="white-title">Там есть мост дьявола</h3>
             <p class="white-text">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
-            <img class="image-promo" src="/image/devil-way.jpg" alt="Фото моста дьявола" width="800" height="384">
+            <img class="image-promo" src="image/devil-way.jpg" alt="Фото моста дьявола." width="800" height="384">
           </li>
         </ul>
       </section>
@@ -99,7 +104,7 @@
             required>
           <button class="button newsletter-button" type="submit">Подписаться</button>
         </form>
-        <img class="footer-contacts-logo" src="/image/backgound.jpeg" width="1200" height="414" alt="фото для фона">
+
       </section>
     </main>
     <!--Подвальный блок-->
@@ -123,7 +128,8 @@
       </div>
       <a href="https://htmlacademy.ru/">
         <div class="icon-html"><svg width="115" height="34" viewBox="0 0 115 34" fill="none"
-            xmlns="http://www.w3.org/2000/svg">
+            xmlns="http://www.w3.org/2000/svg" role="img"
+            aria-label="html academy">
             <path d="M0 13.2564V15.8564H2.5V13.2564H0Z" fill="black" />
             <path
               d="M11.6 4.85645C10 4.85645 8.8 5.55645 8 6.55645H7.9V0.356445H5.9V15.8564H7.9V10.5564C7.9 8.45645 9.2 6.95645 11.2 6.95645C13 6.95645 14.1 8.35645 14.1 10.1564V15.8564H16.1V9.75644C16.2 6.75644 14.3 4.85645 11.6 4.85645Z"

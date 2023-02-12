@@ -4,13 +4,14 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
 
   <body>
     <!--Шапка блок навигации-->
     <header class="page-header">
-      <a href="index.html"><img class="logo" src="/image/logo.jpg" width="140" height="70"
-          alt="Welcome to the gorgeous Sedona, because the Grand Canyon sucks!"></a>
+      <a href="index.html"><img class="logo" src="image/logo.svg" width="140" height="70"
+        alt="логотип страницы."></a>
       <nav class="navigation">
         <ul class="navigation-list">
           <li class="navigation-item"><a class="navigation=link" href="index.html">Главная</a></li>
@@ -29,10 +30,9 @@
     </header>
     <!--Страница поиска отелей-->
     <main>
-      <img src="/image/Filtr.png" width="1200" height="412" alt="фоновое изображение для поля поиска">
+      <!--<img src="image/Filtr.png" width="1200" height="412" alt="фоновое изображение для поля поиска.">-->
       <h1 class="catalog-title">Гостиницы Седоны</h1>
       <a class="navigation=link" href="index.html">
-        <img class="navigation-icon" src="#" alt="Иконка навигации домой">
         <span class="visually-hidden">Главная</span></a>
       <p class="catalog-search">Гостиницы</p>
       <section class="filter">
@@ -59,16 +59,16 @@
             <legend class="filter-column-name">Тип жилья:</legend>
             <ul class="filter-list">
               <li class="filter-type-home">
-                <input id="filter-hotel" type="radio" name="hotel" checked>
-                <label for="filter-hotel" class="filter-item-name active">Гостиница</label>
+                <input type="radio" name="hotel-selection" value="hotel" checked>
+                <label class="filter-item-name active">Гостиница</label>
               </li>
               <li class="filter-type-home">
-                <input id="filter-motel" type="radio" name="motel">
-                <label for="filter-motel" class="filter-item-name active">Мотель</label>
+                <input type="radio" name="hotel-selection" value="motel">
+                <label class="filter-item-name active">Мотель</label>
               </li>
               <li class="filter-type-home">
-                <input id="filter-apartment" type="radio" name="apartment">
-                <label for="filter-apartment" class="filter-item-name active">Апартаменты</label>
+                <input type="radio" name="hotel-selection" value="apartment">
+                <label class="filter-item-name active">Апартаменты</label>
               </li>
             </ul>
           </fieldset>
@@ -77,8 +77,8 @@
             <fieldset class="filter-column">
               <legend class="filter-column-name price-controls-name">Стоимость в сутки (р):</legend>
               <div class="price-controls">
-                <label class="min-price">от <input type="text" name="min-price" value="0"></label>
-                <label class="max-price">до <input type="text" name="max-price" value="9000"></label>
+                <label class="min-price">от <input type="number"" name="min-price" value="0"></label>
+                <label class="max-price">до <input type="number"" name="max-price" value="9000"></label>
               </div>
               <button class="price-secect option-price" type="submit">Применить</button>
               <button class="clear" type="reset">сбросить</button>
@@ -98,7 +98,7 @@
         <a class="show-gallery" href="#"><span class="visually-hidden">Крупные элементы</span></a>
         <a class="show-list" href="#"><span class="visually-hidden">Список</span></a>
         <article class="hotel">
-          <img src="/image/hotel-1.jpg" alt="Гостиница за 4000 рублей">
+          <img src="image/hotel-1.jpg" alt="Гостиница за 4000 рублей.">
           <h3 class="name-hotel">Amara Resort & Spa</h3>
           <ul class="about-hotel">
             <li class="type-hotel">Гостиница
@@ -112,7 +112,7 @@
           <span class="hotel-rating1"></span>
         </article>
         <article class="hotel">
-          <img src="/image/hotel-2.jpg" alt="Гостиница за 5000 рублей">
+          <img src="image/hotel-2.jpg" alt="Гостиница за 5000 рублей.">
           <h3 class="name-hotel">Villas at Poco Diablo</h3>
           <ul class="about-hotel">
             <li class="type-hotel">Гостиница
@@ -126,7 +126,7 @@
           <span class="hotel-rating2"></span>
         </article>
         <article class="hotel">
-          <img src="/image/hotel-3.jpg" alt="Гостиница за 2500 рублей">
+          <img src="image/hotel-3.jpg" alt="Гостиница за 2500 рублей.">
           <h3 class="name-hotel">Desert Quail Inn</h3>
           <ul class="about-hotel">
             <li class="type-hotel">Гостиница
@@ -140,7 +140,7 @@
           <span class="hotel-rating3"></span>
         </article>
         <article class="hotel">
-          <img src="/image/hotel-4.jpg" alt="Гостиница за 1500 рублей">
+          <img src="image/hotel-4.jpg" alt="Гостиница за 1500 рублей.">
           <h3 class="name-hotel">GreenTree Inn</h3>
           <ul class="about-hotel">
             <li class="type-hotel">Гостиница
