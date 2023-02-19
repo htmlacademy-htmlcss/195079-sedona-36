@@ -23,26 +23,13 @@ body {
   background-color: #ffffff;
 }
 
-.button-header {
-  font-family: "PT Sans", sans-serif;
-  color: #ffffff;
-  text-transform: uppercase;
-  text-decoration: none;
-  text-align: center;
-}
-
-
-.navigation-item .button-header {
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 20px;
-  background-color: #756257;
-  border-radius: 4px;
-}
-
 .page-header {
   color: #000000;
   background-color: #ffffff;
+}
+
+.navigation-list {
+  list-style-type: none;
 }
 
 .navigation-link {
@@ -56,16 +43,24 @@ body {
   text-align: center;
 }
 
-.navigation-list {
-  list-style-type: none;
-
+.button-header {
+  font-family: "PT Sans", sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  background-color: #756257;
+  border-radius: 4px;
 }
 
 .hero {
   background: url(../image/decore-saw.svg), url(../image/index-background.jpg);
-  background-size: auto;
-  background-repeat: no-repeat;
-  background-position: bottom, center;
+  background-size: 100%, 100%;
+  background-repeat: no-repeat, no-repeat;
+  background-position: bottom center, top center;
 
 }
 
@@ -196,7 +191,7 @@ body {
   font-style: normal;
 }
 
-div img {
+.welcome {
   text-align: center;
   display: block;
   margin-left: auto;
