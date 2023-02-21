@@ -64,6 +64,13 @@ body {
 
 }
 
+.welcome {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .second-title {
   font-family: "PT Sans", sans-serif;
   font-weight: 700;
@@ -77,7 +84,6 @@ body {
 .adventages-list {
   text-align: center;
   list-style-type: none;
-
 }
 
 .title-promo,
@@ -103,6 +109,9 @@ body {
   line-height: 21px;
   color: #333333;
   background-color: #82B3D3;
+  Width: 400px;
+  Height: 385px;
+
 }
 
 .square-item,
@@ -114,19 +123,6 @@ body {
 .road-item {
   color: #000;
   background-color: rgba(131, 179, 211, 0.2);
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
 
 .infrastructure {
@@ -142,6 +138,8 @@ body {
 
 .infrastructure-list {
   list-style-type: none;
+  Width: 400px;
+  Height: 385px;
 }
 
 .hotel-search {
@@ -157,11 +155,11 @@ body {
   color: #ffffff;
 }
 
-.footer-contacts {
+.footer-contacts-block {
   text-align: center;
   color: #ffffff;
   background-image: url("../image/Subscribe.jpg");
-
+  background-size:
 }
 
 .newsletter-button {
@@ -179,7 +177,7 @@ body {
   color: #333333;
 }
 
-.footer-contacts-address {
+.footer-contacts-address, .footer-contact-address-phone {
   font-family: "PT Sans", sans-serif;
   font-size: 40px;
   font-weight: 400;
@@ -191,19 +189,53 @@ body {
   font-style: normal;
 }
 
-.welcome {
-  text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-
-}
-
-body a {
-  text-decoration: none;
-  color: inherit;
-}
 
 .image-promo {
   display: block;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.main-block{
+  background-image: url(../image/Filtr.png);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  color:#ffffff;
+}
+.option-in-home, .filter-list{
+  list-style-type: none;}
+
+.pagination-links{
+  text-decoration-line: none;
+  color:#ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  background-color: #82B3D3;
+  border-radius: 4px;
+  color: #ffffff;
+  text-decoration-line: none;
+}
+
+.about{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  background-color: #756257;
+  border-radius: 4px;
+  color: #ffffff;
+  text-decoration-line: none;
 }
