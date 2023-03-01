@@ -118,18 +118,12 @@ body {
   display: block;
   padding: 20px 16px;
 }
-/*
-.navigation-user .navigation-link {
-  min-width: 44px;
-  min-height: 64px;
-  padding: 0;
-}  */
 
 .button {
   color: #ffffff;
   text-transform: uppercase;
   text-decoration: none;
-text-align: center;
+  text-align: center;
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
@@ -137,6 +131,7 @@ text-align: center;
   border-radius: 4px;
   display: block;
 }
+
 .button-header{
   width: 160px;
   min-height: 36px;
@@ -164,10 +159,10 @@ text-align: center;
 
 /* Блок Преимущества */
 
-advantages-wrapper {
+.advantages-wrapper {
   width: 651px;
   margin: 0 auto;
-  padding: 69px 0px;
+  padding: 0px 0px;
 }
 
 .title-promo {
@@ -339,13 +334,13 @@ margin-bottom: 20px;
   margin-bottom: 81px;
 }
 
-
 /* блок поиска гостиницы */
 
 .hotel-search {
   text-align: center;
 }
-.hotel-search-wrapper{
+
+.hotel-search-wrapper {
   width: 592px;
   margin: 0 auto;
   padding: 96px 0;
@@ -445,6 +440,7 @@ margin-bottom: 20px;
 }
 
 /* подвальный блок */
+
 .page-footer {
   min-height: 120px;
 }
@@ -535,11 +531,11 @@ margin-bottom: 20px;
   margin-bottom: 32px;
 
 }
-.option-in-home, .filter-list{
+.option-in-home, .filter-list {
   list-style-type: none;
 }
 
-.pagination-links{
+.pagination-links {
   text-decoration-line: none;
   color:#ffffff;
   font-size: 20px;
@@ -551,7 +547,7 @@ margin-bottom: 20px;
   text-decoration-line: none;
 }
 
-.about{
+.about {
   font-size: 20px;
   font-weight: 700;
   line-height: 36px;
@@ -560,20 +556,3 @@ margin-bottom: 20px;
   color: #ffffff;
   text-decoration-line: none;
 }
-
-
-
-  .container{
-    width: 1200px;
-  margin: 0 auto;
-  }
-
-
-.advantages-wrapper-devil
-.infrastructure-wrap
-.hotel-search-wrapper
-
-
-.hoter-card-image
-
-*/
