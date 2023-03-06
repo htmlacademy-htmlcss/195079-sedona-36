@@ -29,7 +29,7 @@
       </nav>
     </header>
       <!--Страница поиска отелей-->
-      <main class="main-catalog">
+      <main class="main-catalog main-container">
         <section class="main-section">
           <header class="filter">
           <h1 class="catalog-title">Гостиницы Седоны</h1>
@@ -45,16 +45,16 @@
                   <legend class="filter-column-name">Инфраструктура:</legend>
                   <ul class="option-in-home">
                     <li class="filter-item">
-                      <input id="filter-input" type="checkbox" name="pool" checked>
-                      <label for="filter-label" class="filter-item-name active">Бассейн</label>
+                      <input id="filter-input-pool" type="checkbox" name="pool" checked>
+                      <label for="filter-input-pool" class="filter-item-name">Бассейн</label>
                     </li>
                     <li class="filter-item">
-                      <input id="filter-input" type="checkbox" name="parking" checked>
-                      <label for="filter-label" class="filter-item-name">Парковка</label>
+                      <input id="filter-input-parking" type="checkbox" name="parking" checked>
+                      <label for="filter-input-parking" class="filter-item-name">Парковка</label>
                     </li>
                     <li class="filter-item">
-                      <input id="filter-input" type="checkbox" name="Wi-Fi">
-                      <label for="filter-input" class="filter-item-name">Wi-Fi</label>
+                      <input id="filter-input-wifi" type="checkbox" name="Wi-Fi">
+                      <label for="filter-input-wifi" class="filter-item-name">Wi-Fi</label>
                     </li>
                     </ul>
                   </fieldset>
@@ -67,11 +67,11 @@
                 </li>
                 <li class="filter-type-home">
                   <input type="radio" name="hotel-selection" value="motel">
-                  <label class="filter-item-name active">Мотель</label>
+                  <label class="filter-item-name">Мотель</label>
                 </li>
                 <li class="filter-type-home">
                   <input type="radio" name="hotel-selection" value="apartment">
-                  <label class="filter-item-name active"> Апартаменты</label>
+                  <label class="filter-item-name"> Апартаменты</label>
                 </li>
               </ul>
               </fieldset>
@@ -96,6 +96,7 @@
             <option>Сначала дорогие</option>
             <option>Рейтинг: сначала лучшие</option>
           </select>
+          <h3 class="visually-hidden">Вид</h3>
           <a class="show-cells" href="#"><span class="visually-hidden">Группа</span></a>
           <a class="show-gallery" href="#"><span class="visually-hidden">Крупные элементы</span></a>
           <a class="show-list" href="#"><span class="visually-hidden">Список</span></a>
@@ -115,7 +116,6 @@
             <span class="hotel-rating">Рейтинг 8,5</span>
             </div>
           </article>
-
           <article class="hotel-card">
             <img class="hotel-image" src="image/hotel-2.jpg" width="300" height="212" alt="Гостиница за 5000 рублей.">
             <div class="hotel-card-information">
@@ -157,6 +157,7 @@
             <span class="hotel-rating">Рейтинг 5,0</span>
           </div>
           </article>
+          </div>
         </section>
         <!--навигация по страницам-->
           <h3 class="visually-hidden">Навигация по страницам</h3>
@@ -212,10 +213,10 @@
             </li>
           </ul>
         </Section>
+        <h3 class="visually-hidden">Контакты</h3>
           <address class="contact-phone-number">
             <a class="footer-contact-phone" href="tel:+78128121212">+7(812)812-12-12</a>
           </address>
-        </div>
         <a class="footer-logo" href="https://htmlacademy.ru/">
           <div class="icon-html"><svg width="115" height="34" viewBox="0 0 115 34" fill="none"
               xmlns="http://www.w3.org/2000/svg" role="img" aria-label="html academy">
@@ -257,5 +258,6 @@
           </div>
         </a>
       </footer>
+    </div>
     </body>
   </html>
