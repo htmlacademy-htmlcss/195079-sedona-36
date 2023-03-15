@@ -22,8 +22,6 @@ img {
   max-width: 100%;
   height: auto;
   object-fit: contain;
-  outline: 1px solid #666;
-
 }
 
 .visually-hidden {
@@ -121,6 +119,12 @@ body {
   padding: 20px 16px;
 }
 
+.navigation-user .navigation-link {
+  min-width: 16px;
+  min-height: 22px;
+}
+
+
 .button {
   font-weight: 700;
   font-size: 16px;
@@ -152,14 +156,12 @@ body {
   background-position: bottom, center;
   background-color: #4682B4;
   padding: 51px 150px 82px;
-  outline: 1px solid #666;
 }
 
 .welcome {
   text-align: center;
   display: block;
   margin: 0 auto;
-  outline: 1px solid #666;
 }
 
 /* Блок Преимущества */
@@ -170,7 +172,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  outline: 1px solid #666;
 }
 
 .title-promo {
@@ -184,7 +185,6 @@ body {
   text-transform: uppercase;
   color: #000000;
   padding-top: 44px;
-  outline: 1px solid #666;
 }
 
 .text-promo {
@@ -201,14 +201,12 @@ body {
   padding: 80px 85px;
   display: block;
   gap: 10px;
-  outline: 1px solid #666;
 }
 
 .advantages-wrapper-devil {
   padding: 80px 85px;
   display: block;
   gap: 10px;
-  outline: 1px solid #666;
 }
 
 .adventages-title {
@@ -218,7 +216,6 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: #000000;
-  outline: 1px solid #666;
 }
 
 .text-adventure{
@@ -230,12 +227,12 @@ body {
   font-size: 18px;
   line-height: 21px;
   text-align: center;
-  outline: 1px solid #666;
 }
 
 
 .real-city-text, .devil-bridge-text{
   color:#ffffff;
+  margin-top: 62px;
 }
 
 .real-city-title, .devil-bridge-title {
@@ -249,7 +246,6 @@ body {
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
-  outline: 1px solid #666;
 }
 
 .devil-bridge {
@@ -272,7 +268,6 @@ body {
   align-items: center;
   padding: 103px 85px;
   gap: 10px;
-  outline: 1px solid #666;
 }
 
 .image-promo {
@@ -297,11 +292,9 @@ body {
   width: 505px;
   margin: 0 auto;
   padding: 64px 0;
-  outline: 1px solid #666;
 }
 
 .infrastructure-title {
-  outline: 1px solid #666;
 font-weight: 700;
 font-size: 30px;
 line-height: 36px;
@@ -332,7 +325,6 @@ margin-bottom: 20px;
   margin: 0;
   padding: 0;
   list-style-type: none;
-  outline: 1px solid #666;
 }
 
 .infrastructure-item {
@@ -366,15 +358,12 @@ margin-bottom: 20px;
 
 .hotel-search {
   text-align: center;
-  outline: 1px solid #666;
-
 }
 
 .hotel-search-wrapper {
   width: 592px;
   margin: 0 auto;
   padding: 96px 0;
-  outline: 1px solid #666;
 }
 
 .title-hotel-search {
@@ -385,7 +374,6 @@ margin-bottom: 20px;
   text-transform: uppercase;
   margin: 0;
   margin-bottom: 20px;
-  outline: 1px solid #666;
 }
 
 .text-hotel-search {
@@ -412,7 +400,6 @@ margin-bottom: 20px;
  /* Блок подписки */
 
 .footer-contacts-block {
-  outline: 1px solid #666;
   text-align: center;
   color: #ffffff;
   background-image: url("../image/Subscribe.jpg");
@@ -420,23 +407,28 @@ margin-bottom: 20px;
 }
 
 .footer-container {
-  width: 684px;
+  width: 720px;
   margin: 0 auto;
   padding: 96px 0 104px;
 }
 
 .footer-title {
-  outline: 1px solid #666;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-align: center;
   text-transform: uppercase;
   margin: 0;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
+  padding-left: 18px;
+  width: 684px;
+  display: flex;
+  justify-content: space-around;
 }
 
+
 .footet-text {
+  display: block;
   font-size: 22px;
   font-weight: 400;
   line-height: 26px;
@@ -444,13 +436,15 @@ margin-bottom: 20px;
   text-align: center;
   margin: 0;
   margin-bottom: 54px;
+  width: 684px;
 }
 
 .newsletter-form {
   display: flex;
   width: 684px;
+  min-height: 50px;
   margin: 0 auto;
-  outline: 1px solid #666;
+  margin-top: 62px;
 }
 
 .field {
@@ -463,7 +457,6 @@ margin-bottom: 20px;
   width: 452px;
   padding: 0;
   border: none;
-  outline: 1px solid #666;
 }
 
 .newsletter-button {
@@ -473,6 +466,10 @@ margin-bottom: 20px;
   border-radius:0 4px  4px 0 ;
   width: 232px;
   border: none;
+  padding-left: 40px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
 }
 
 /* подвальный блок */
@@ -492,6 +489,13 @@ margin-bottom: 20px;
   color: #333333;
   text-decoration: none;
   text-align: center;
+  width: 56px;
+  height: 44px;
+  margin-right: 8px;
+}
+
+.footer-social-item:nth-child(3n) {
+  margin-right: 0;
 }
 
 .htmlacademy-link {
@@ -542,11 +546,9 @@ margin-bottom: 20px;
   padding: 35px 70px 70px;
   margin: 0 auto;
   width: 1200px;
-  outline: 1px solid #666;
 }
 
 .filter {
-  outline: 1px solid #666;
   margin-bottom: 40px;
 }
 
@@ -557,7 +559,6 @@ margin-bottom: 20px;
   color: #ffffff;
   margin: 0;
   margin-bottom: 8px;
-  outline: 1px solid #666;
 }
 
 .catalog-search:before  {
@@ -565,12 +566,10 @@ margin-bottom: 20px;
 }
 
 .hotel-filter {
-  outline: 1px solid #666;
   display: flex;
 }
 
 .filter-container {
-  outline: 1px solid #666;
   display: flex;
   justify-content: space-between;
 }
@@ -581,7 +580,6 @@ margin-bottom: 20px;
   border: none;
   margin-right: 70px;
   max-width: 152px;
-  outline: 1px solid #666;
 }
 
 .options-price {
@@ -651,7 +649,6 @@ color: #ffffff;
 }
 
 .search  {
-  outline: 1px solid #666;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -663,7 +660,6 @@ color: #ffffff;
 }
 
 .search-result {
-  outline: 1px solid #666;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -672,7 +668,6 @@ color: #ffffff;
 }
 
 .hotel-list {
-  outline: 1px solid #666;
   background-color: #ffffff;
   color: #000000;
   width: 1200px;
@@ -682,7 +677,6 @@ color: #ffffff;
 }
 
 .do-sorting {
-  outline: 1px solid #666;
   display: flex;
   align-items: center;
   width: 1060px;
@@ -710,11 +704,9 @@ color: #ffffff;
   grid-template-columns: repeat(3,340px);
   list-style: none;
   margin-bottom: 80px;
-  outline: 1px solid #666;
 }
 
 .hotel-card {
-  outline: 1px solid #666;
   display: flex;
   flex-direction: column;
   border: 1px solid #E6E6E6;
@@ -722,7 +714,6 @@ color: #ffffff;
 }
 
 .hotel-card-information {
-  outline: 1px solid #666;
   display: grid;
   grid-template-columns: repeat(2,140px);
   row-gap: 16px;
@@ -736,8 +727,7 @@ color: #ffffff;
   line-height: 28px;
   margin: 0;
   margin-bottom: 16px;
-  white-space: nowrap ;
-  outline: 1px solid #666;
+  white-space: nowrap;
   width: 300px;
   height: 28px;
   left: 20px;
@@ -750,7 +740,6 @@ color: #ffffff;
   line-height: 21px;
   color: #333333;
   text-align: left;
-  outline: 1px solid #666;
   position: absolute;
   width: 140px;
   height: 21px;
@@ -761,8 +750,6 @@ color: #ffffff;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-  color: #333333;
-  outline: 1px solid #666;
   margin-top: 36px;
 }
 
